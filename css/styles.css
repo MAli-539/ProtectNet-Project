@@ -14,11 +14,14 @@ body {
 header {
     background-color: #ffffff;
     padding: 15px 30px;
+    position: fixed;
+    width: 100%;
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-between;
+    box-shadow: 0 2px 2px #3a3a3a ;
 }
 
+/* Logo Styling */
 h1 {
     font-size: 36px;
     font-weight: bold;
@@ -30,29 +33,9 @@ h1 {
 
 
 header a {
-    color: #000000;
+    color: #e20f0f;
     text-decoration: none;
 }
-
-header a:hover {
-    color: #f1c40f;
-    transform: scale(1.1);
-}
-
-#logo {
-    text-decoration: none;
-}
-
-#logo a {
-    text-decoration: none;
-}
-
-#logo a:hover {
-    color: #f1c40f;
-    transform: scale(1.1);
-}
-/* Logo Styling */
-
 
 /* Navbar Styles */
 .navbar {
@@ -65,7 +48,6 @@ header a:hover {
 .nav-links {
     list-style-type: none;
     display: flex;
-    margin-left: auto;
 }
 
 .nav-links li {
@@ -80,7 +62,7 @@ header a:hover {
 }
 
 .nav-links a:hover {
-    color: #f1c40f;
+    color: #710ff1;
 }
 
 /* Main content */
