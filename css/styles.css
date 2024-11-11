@@ -12,9 +12,47 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ffffff;
     padding: 15px 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
 }
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0; 
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+}
+
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #f1c40f;
+    transform: scale(1.1);
+}
+
+#logo {
+    text-decoration: none;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo a:hover {
+    color: #f1c40f;
+    transform: scale(1.1);
+}
+/* Logo Styling */
+
 
 /* Navbar Styles */
 .navbar {
@@ -22,15 +60,6 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
-}
-
-.navbar .logo a {
-    color: white;
-    text-decoration: none;
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 1px; 
-    text-transform: uppercase;
 }
 
 .nav-links {
@@ -44,7 +73,7 @@ header {
 }
 
 .nav-links a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -53,6 +82,7 @@ header {
 .nav-links a:hover {
     color: #f1c40f;
 }
+
 /* Main content */
 main {
 }
