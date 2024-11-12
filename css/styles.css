@@ -15,30 +15,7 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 2px 2px #3a3a3a ;
-}
-
-header a {
-    color: inherit;
-    text-decoration: none;
-}
-
 /* Logo Styling */
-h1 {
-    color: #000000; 
-    letter-spacing: 1px;
-    text-transform: uppercase; 
-}
-
-/* Navbar Styles */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -51,13 +28,29 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    color: #000000; 
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+}
+
+/* Navbar Styles */
 .nav-links {
     list-style-type: none;
     display: flex;
     gap: 1.5rem; 
     padding: 0;
     margin: 0;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .nav-links a {
@@ -73,6 +66,7 @@ header {
 .nav-links a:hover {
     background-color: #f0f0f0;
     color: #710ff1; 
+    text-decoration: none;
 }
 
 /* Main content */
