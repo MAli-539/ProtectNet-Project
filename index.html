@@ -12,7 +12,7 @@
       content="online safety, cyberbullying prevention, child internet safety, digital well-being, cyberbullying help, parental controls, online predators, child privacy protection"
     />
     <title>Protect Net</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,84 +21,153 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div>
-        <a href="index.html">
-          <h1 id="logo">Protect Net</h1>
+      <div class="container header-container">
+        <a href="index.html" id="logo">
+          <h1>Protect Net</h1>
         </a>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resources">Resources</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="navbar">
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">More Info</a></li>
-          <li><a href="#contact">Resources</a></li>
-        </ul>
-      </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-      <!-- About -->
-      <section id="about" class="about text-center">
-        <div class="about-content">
-          <h2>About Us</h2>
-          <p>
-            Protect Net is a website dedicated to helping parents and guardians
-            protect their children online. We provide tips, advice, and
-            resources to help you keep your children safe from cyberbullying,
-            predators, and inappropriate content.
-          </p>
-        </div>
-      </section>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content container">
+        <h1>Welcome to Protect Net</h1>
+        <p>Your trusted resource for online safety</p>
+        <img
+          src="/assets/images/Safeguarding image.png"
+          alt="Hero Image"
+          class="hero-image"
+        />
+      </div>
+    </section>
 
-      <!-- Services -->
-      <section id="services" class="services text-center">
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-content container">
+        <h2>About Us</h2>
+        <p>
+          Protect Net is a website dedicated to helping parents and guardians
+          protect their children online. We provide tips, advice, and resources
+          to help you keep your children safe from cyberbullying, predators, and
+          inappropriate content.
+        </p>
+        <h3>Safeguarding Steps</h3>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Educate your children about online safety.
+          </li>
+          <li class="list-group-item">
+            Use parental controls to monitor activity.
+          </li>
+          <li class="list-group-item">
+            Teach them to recognize and report suspicious messages.
+          </li>
+          <li class="list-group-item">
+            Encourage open communication about online experiences.
+          </li>
+          <li class="list-group-item">
+            Regularly review and update privacy settings.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+      <div class="container">
+        <h2>Resources</h2>
+
+        <!-- Video Container -->
+        <div class="video-container">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/ZCZCXrCSU1I"
+            title="The importance of understanding online safety | NSPCC Learning"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- Service Cards -->
         <div class="services-content">
-          <h2>More Info</h2>
-          <div class="container text-center">
-            <div class="row row-cols-2">
-              <div class="col service-card">
-                <h3>Cyberbullying Prevention</h3>
-                <p>
-                  Learn how to recognize the signs of cyberbullying and what you
-                  can do to help your child if they are being bullied online.
-                </p>
-              </div>
-              <div class="col service-card">
-                <h3>Parental Controls</h3>
-                <p>
-                  Discover the best parental control tools and apps to help you
-                  monitor and manage your child's online activity.
-                </p>
-              </div>
-              <div class="col service-card">
-                <h3>Online Predators</h3>
-                <p>
-                  Find out how to protect your child from online predators and
-                  what to do if you suspect your child is being targeted.
-                </p>
-              </div>
-              <div class="col service-card">
-                <h3>Child Privacy Protection</h3>
-                <p>
-                  Learn how to safeguard your child's privacy online and protect
-                  their personal information from being shared or stolen.
-                </p>
-              </div>
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col service-card">
+              <h3>Cyberbullying Prevention</h3>
+              <p>
+                Learn how to recognize the signs of cyberbullying and what you
+                can do to help your child if they are being bullied online.
+              </p>
+              <p>
+                <a
+                  href="https://www.unicef.org/end-violence/how-to-stop-cyberbullying"
+                  >Learn More</a
+                >
+              </p>
+            </div>
+
+            <div class="col service-card">
+              <h3>Parental Controls</h3>
+              <p>
+                Discover the best parental control tools and apps to help you
+                monitor and manage your child's online activity.
+              </p>
+              <p>
+                <a
+                  href="https://www.nspcc.org.uk/keeping-children-safe/online-safety/parental-controls/"
+                  >Learn More</a
+                >
+              </p>
+            </div>
+
+            <div class="col service-card">
+              <h3>Online Predators</h3>
+              <p>
+                Find out how to protect your child from online predators and
+                what to do if you suspect your child is being targeted.
+              </p>
+              <p>
+                <a
+                  href="https://childsafety.losangelescriminallawyer.pro/children-and-grooming-online-predators.html"
+                  >Learn More</a
+                >
+              </p>
+            </div>
+
+            <div class="col service-card">
+              <h3>Child Privacy Protection</h3>
+              <p>
+                Learn how to safeguard your child's privacy online and protect
+                their personal information from being shared or stolen.
+              </p>
+              <p>
+                <a
+                  href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/protecting-childrens-privacy-online-our-childrens-code-strategy/#:~:text=The%20Children's%20code%20was%20fully,protected%20within%20the%20digital%20world."
+                  >Learn More</a
+                >
+              </p>
             </div>
           </div>
         </div>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact" class="contact text-center">
-        <div class="contact-content">
-          <h2>Resources</h2>
-        </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="text-center">footer</footer>
+    <footer class="footer">
+      <a
+        href="https://www.gov.uk/guidance/child-online-safety-data-protection-and-privacy"
+        class="contact-button"
+        >Contact Us</a
+      >
+    </footer>
   </body>
 </html>
