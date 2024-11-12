@@ -39,24 +39,39 @@ h1 {
 }
 
 /* Navbar Styles */
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    box-shadow: 0 2px 2px #3a3a3a;
+}
 
 .nav-links {
     list-style-type: none;
-}
-
-.nav-links li {
-    margin-bottom: 1em;
+    display: flex;
+    gap: 1.5rem; 
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links a {
-    color: rgb(0, 0, 0);
+    color: #333;
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+    padding: 0.5rem 0.75rem; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .nav-links a:hover {
-    color: #710ff1;
+    background-color: #f0f0f0;
+    color: #710ff1; 
 }
 
 /* Main content */
