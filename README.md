@@ -26,10 +26,29 @@ Protect Net acts as a valuable resource center, providing parents and guardians 
 
 ## Deployment
 
+1. Go to your GitHub account and open the repository for the project.
+2. In the repository, navigate to the **Settings** tab.
+3. Select **Pages** from the left-hand menu.
+4. Set the source to deploy from the **Main** branch and choose the `/root` folder.
+5. Save the settings, and the live project link will be generated within a few minutes.
+
 ## Bugs
+
+-Minor issue with the size of the video 
 
 ### Content
 
+- [Video](https://www.youtube.com/embed/ZCZCXrCSU1I)
+- [UNICEF](https://www.unicef.org/end-violence/how-to-stop-cyberbullying) - Cyberbullying information.
+- [NSPCC](https://www.nspcc.org.uk/keeping-children-safe/online-safety/parental-controls/) - Parental control resources.
+- [Child Safety Resource](https://childsafety.losangelescriminallawyer.pro) - Online predator protection information.
+- [ICO](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/protecting-childrens-privacy-online-our-childrens-code-strategy/#:~:text=The%20Children's%20code%20was%20fully,protected%20within%20the%20digital%20world.) - Child Privacy Protection
+
 ### Testing
 
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
 ## Future Improvements
+
+- Add a dedicated section for hotline and emergency contacts for online safety help.
