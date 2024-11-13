@@ -45,6 +45,7 @@ Protect Net acts as a valuable resource center, providing parents and guardians 
 ## Bugs
 
 - Minor issue with the size of the video
+- Responivity issue with the navbar
 
 ### Content
 
