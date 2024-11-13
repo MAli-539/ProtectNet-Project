@@ -20,9 +20,19 @@ Protect Net acts as a valuable resource center, providing parents and guardians 
 
 ### Wireframes
 
+![desktop-wirephrame](/assets/readme_images/desktop-wireframe.png)
+
 ### Colour Scheme
 
+![Colour Palette](/assets/readme_images/colour-palette.png)
+
 ### Validation
+
+- HTML validator
+![html_validator](/assets/readme_images/html_validator.png)
+
+- CSS Validator
+![css_validator](/assets/readme_images/css_validator.png)
 
 ## Deployment
 
